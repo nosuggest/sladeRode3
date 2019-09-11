@@ -3,6 +3,7 @@
 #include "binarySeach.cpp"
 #include "bubbleSort.cpp"
 #include "Case01.cpp"
+#include "Case02.cpp"
 
 int main() {
     std::cout << "Hello, Start!" << std::endl;
@@ -22,6 +23,11 @@ int main() {
 
     cout << "__________" << endl;
     case011();
+    case012();
+
+    cout << "__________" << endl;
+    case020();
+
 
     return 0;
 }

@@ -33,3 +33,23 @@ void case011() {
     cout << INT_MAX << endl;
 
 }
+
+void case012() {
+
+    const int ROW = 3;
+    const int COL = 4;
+    int mat[ROW][COL];
+    for (int i = 0; i < ROW; ++i) {
+        for (int j = 0; j < COL; ++j) {
+            mat[i][j] = i + j;
+        }
+
+    }
+
+
+    for (int k = 0; k < ROW; ++k) {
+        for (int i = 0; i < COL; ++i) {
+            cout << mat[k][i] << endl;
+        }
+    }
+}

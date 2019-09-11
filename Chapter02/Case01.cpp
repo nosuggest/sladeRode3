@@ -18,3 +18,18 @@ void case010() {
         cout << nums[j] << endl;
     }
 }
+
+void case011() {
+    double nums[10] = {1};
+    cout << nums[1] << endl;
+
+    int intnums[10] = {1};
+    cout << intnums[1] << endl;
+
+    char charnums[10] = {1};
+    cout << charnums[1] << endl;
+
+    cout << INT_MIN << endl;
+    cout << INT_MAX << endl;
+
+}

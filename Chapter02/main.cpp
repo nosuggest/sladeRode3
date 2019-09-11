@@ -19,5 +19,9 @@ int main() {
     bubbleSort(needRankNums);
 
     case010();
+
+    cout << "__________" << endl;
+    case011();
+
     return 0;
 }

@@ -1,4 +1,6 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/slade/Documents/GitHub/sladeRode3/Chapter01
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/slade/Documents/GitHub/sladeRode3/Chapter01/cmake-build-debug
+"D:\Clion\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\mywork\GitHub\sladeRode3\Chapter01
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.14 or higher is required.  You are running version 3.12.0
+
+
+-- Configuring incomplete, errors occurred!

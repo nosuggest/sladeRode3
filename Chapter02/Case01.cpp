@@ -1,7 +1,8 @@
 //
 // Created by 沙韬伟 on 2019-09-11.
 //
-
+#include <limits.h>
+#include "iostream"
 void case010() {
     int nums[] = {2, 3, 4, 5};
     cout << sizeof(nums) / sizeof(int) << endl;

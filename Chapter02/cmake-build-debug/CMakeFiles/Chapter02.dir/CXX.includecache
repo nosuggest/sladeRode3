@@ -6,33 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case00.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/Case00.cpp
 iostream
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/iostream
+D:/mywork/GitHub/sladeRode3/Chapter02/iostream
 
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case01.cpp
-
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case02.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/Case01.cpp
+limits.h
+-
 iostream
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/iostream
+D:/mywork/GitHub/sladeRode3/Chapter02/iostream
+
+D:/mywork/GitHub/sladeRode3/Chapter02/Case02.cpp
+iostream
+D:/mywork/GitHub/sladeRode3/Chapter02/iostream
 vector
 -
+algorithm
+D:/mywork/GitHub/sladeRode3/Chapter02/algorithm
 
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/binarySeach.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/binarySeach.cpp
 
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/bubbleSort.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/bubbleSort.cpp
 
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/main.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/main.cpp
 iostream
 -
 Case00.cpp
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case00.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/Case00.cpp
 binarySeach.cpp
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/binarySeach.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/binarySeach.cpp
 bubbleSort.cpp
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/bubbleSort.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/bubbleSort.cpp
 Case01.cpp
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case01.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/Case01.cpp
 Case02.cpp
-/Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case02.cpp
+D:/mywork/GitHub/sladeRode3/Chapter02/Case02.cpp
 

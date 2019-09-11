@@ -10,9 +10,21 @@
 iostream
 /Users/slade/Documents/GitHub/sladeRode3/Chapter02/iostream
 
+/Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case01.cpp
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter02/binarySeach.cpp
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter02/bubbleSort.cpp
+
 /Users/slade/Documents/GitHub/sladeRode3/Chapter02/main.cpp
 iostream
 -
 Case00.cpp
 /Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case00.cpp
+binarySeach.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter02/binarySeach.cpp
+bubbleSort.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter02/bubbleSort.cpp
+Case01.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter02/Case01.cpp
 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/Case00.cpp
+iostream
+-
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/Case01.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/iostream
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/Case02.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/iostream
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/main.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/iostream
+Case00.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/Case00.cpp
+Case01.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/Case01.cpp
+Case02.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter01/Case02.cpp
+

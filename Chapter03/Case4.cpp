@@ -112,3 +112,8 @@ void case46() {
     }
 
 }
+
+void case47() {
+    int (*p)[4] = new int[3][4];
+    cout << sizeof(p) << endl;//8，p还是指的是首元素的地址
+}

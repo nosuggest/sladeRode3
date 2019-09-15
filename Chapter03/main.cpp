@@ -8,6 +8,7 @@
 #include "Case2.cpp"
 #include "Case3.cpp"
 #include "Case4.cpp"
+#include "总结.cpp"
 
 int main() {
     case47();

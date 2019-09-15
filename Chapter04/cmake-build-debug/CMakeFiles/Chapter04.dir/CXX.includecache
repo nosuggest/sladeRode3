@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter04/main.cpp
+iostream
+-
+ctime
+/Users/slade/Documents/GitHub/sladeRode3/Chapter04/ctime
+vector
+/Users/slade/Documents/GitHub/sladeRode3/Chapter04/vector
+array
+/Users/slade/Documents/GitHub/sladeRode3/Chapter04/array
+iomanip
+-
+cstdlib
+/Users/slade/Documents/GitHub/sladeRode3/Chapter04/cstdlib
+

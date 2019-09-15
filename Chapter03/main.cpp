@@ -10,6 +10,6 @@
 #include "Case4.cpp"
 
 int main() {
-    case45();
+    case40();
     return 0;
 }

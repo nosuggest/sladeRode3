@@ -9,6 +9,7 @@ void case40() {
     //使用prt_int这个指针指向这个新的int值的内存空间
     //不要prt_int++，这样会造成new int申请的空间无法被释放，造成内存泄漏/野指针
     int *prt_int = new int;
+//    *prt_int = 96;
     cout << prt_int << endl;
     cout << *prt_int << endl;
     delete prt_int;//释放new分配的内存
@@ -70,7 +71,7 @@ void case45() {
     int *ptr_stat = array;//首元素的值
     int *ptr_end = array + 4;//尾元素的值
     int tmp;
-    while (ptr_stat < ptr_end) {
+    while (ptr_stat < ptr_end) {//因为是连续的内存地址
         // 做值交换
         tmp = *ptr_stat;
         *ptr_stat = *ptr_end;
@@ -83,4 +84,31 @@ void case45() {
     for (int i = 0; i < 5; ++i) {
         cout << array[i] << endl;
     }
+}
+
+void case46() {
+    // 一位数组
+    int *p = new int[4];
+
+    //使用指针来创建2维数组
+    // int(*pNums)可以当作二维数组中的一维表述，降维操作
+    int (*pNums)[3] = new int[4][3];
+
+    int arrays[4][3] = {{1,  2,  3},
+                        {4,  5,  6},
+                        {7,  8,  9},
+                        {10, 12, 13}};
+
+    pNums = arrays;
+    for (int i = 0; i < 4; ++i) {
+        for (int j = 0; j < 3; ++j) {
+
+//            cout << *(pNums + i) << endl;//存一位数组的数组地址，0x7fa1efc02af0
+//            cout << pNums + i << endl;//一位数组内的元素的地址，0x7fd27f402af0
+            cout << *(*(pNums + i) + j) << ",";
+//            cout << pNums[i][j] << ",";这样也可以取出每个元素
+        }
+        cout << endl;
+    }
+
 }

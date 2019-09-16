@@ -26,6 +26,10 @@ iostream
 iostream
 /Users/slade/Documents/GitHub/sladeRode3/Chapter05/iostream
 
+/Users/slade/Documents/GitHub/sladeRode3/Chapter05/case06.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter05/iostream
+
 /Users/slade/Documents/GitHub/sladeRode3/Chapter05/main.cpp
 iostream
 -
@@ -39,4 +43,6 @@ case04.cpp
 /Users/slade/Documents/GitHub/sladeRode3/Chapter05/case04.cpp
 case05.cpp
 /Users/slade/Documents/GitHub/sladeRode3/Chapter05/case05.cpp
+case06.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter05/case06.cpp
 

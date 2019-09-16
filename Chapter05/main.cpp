@@ -5,6 +5,7 @@
 #include "case03.cpp"
 #include "case04.cpp"
 #include "case05.cpp"
+#include "case06.cpp"
 
 using namespace std;
 
@@ -39,14 +40,17 @@ int main() {
     print(arrs, 3);*/
 
 
-    cout << "n次方" << power(2, 3) << endl;
-    //申明函数指针
-    int (*ptrPower)(int, int);
-    //让申明的函数指针指向函数，用来调用
-    ptrPower = power;
+//    cout << "n次方" << power(2, 3) << endl;
+//    //申明函数指针
+//    int (*ptrPower)(int, int);
+//    //让申明的函数指针指向函数，用来调用
+//    ptrPower = power;
+//
+//    cout << "n次方" << ptrPower(2, 3) << endl;
+//    cout << "n次方" << (*ptrPower)(2, 3) << endl;//也可
 
-    cout << "n次方" << ptrPower(2, 3) << endl;
-    cout << "n次方" << (*ptrPower)(2, 3) << endl;//也可
+    //calcAdd是double (*calc)(double, double)类型的指针函数
+    print(calcAdd, 2.0, 3.0);
 
 
     return 0;

@@ -6,6 +6,7 @@
 #include "case04.cpp"
 #include "case05.cpp"
 #include "case06.cpp"
+#include "case07.cpp"
 
 using namespace std;
 

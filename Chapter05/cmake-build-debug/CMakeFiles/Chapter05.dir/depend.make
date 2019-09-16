@@ -7,5 +7,6 @@ CMakeFiles/Chapter05.dir/main.cpp.o: ../case03.cpp
 CMakeFiles/Chapter05.dir/main.cpp.o: ../case04.cpp
 CMakeFiles/Chapter05.dir/main.cpp.o: ../case05.cpp
 CMakeFiles/Chapter05.dir/main.cpp.o: ../case06.cpp
+CMakeFiles/Chapter05.dir/main.cpp.o: ../case07.cpp
 CMakeFiles/Chapter05.dir/main.cpp.o: ../main.cpp
 

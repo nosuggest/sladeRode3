@@ -18,8 +18,9 @@ int main() {
 //    cout << "i:" << i << "j:" << j << endl;
 //    swap2(i,j);//交换成功，传递的是本体
 //    cout << "i:" << i << "j:" << j << endl;
-
-    cout << sum() << endl;//这边引用了一个局部变量
+    int &result = sum();
+    cout << result << endl;//这边引用了一个局部变量
     test();
+    cout << result << endl;//这边引用了一个局部变量
     return 0;
 }

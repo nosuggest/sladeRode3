@@ -5,7 +5,13 @@
 #include "iostream"
 // 替换N为6
 #define N 6
-#define S(num) num*num
+
+//#define S(num) num*num
+inline int S(int);
+
+int S(int num) {
+    return num * num;
+}
 
 using namespace std;
 
@@ -18,3 +24,4 @@ inline void case001() {
     // num*num = 5+10*5+10
     cout << S(5 + 10) << endl;
 }
+

@@ -1,0 +1,3 @@
+D:/mywork/GitHub/sladeRode3/Chapter06/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/mywork/GitHub/sladeRode3/Chapter06/cmake-build-debug/CMakeFiles/Chapter06.dir
+D:/mywork/GitHub/sladeRode3/Chapter06/cmake-build-debug/CMakeFiles/rebuild_cache.dir

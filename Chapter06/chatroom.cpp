@@ -16,6 +16,8 @@ string chatTo(const string &toName, const string &content) {
 }
 
 int test(int a, int b, int c){
+    const int d = 10;
+    cout<<d<<endl;
     return a+b+c;
 }
 // 默认参数必须从右往左定义

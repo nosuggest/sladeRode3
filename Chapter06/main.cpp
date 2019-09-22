@@ -31,5 +31,8 @@ int main() {
     string msg = "hello world";
     string content = chatTo(name, msg);
     cout << content << endl;
+
+    test(1,2,3);
+
     return 0;
 }

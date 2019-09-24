@@ -71,17 +71,18 @@ int main() {
 //    // 先销毁student1，后销毁student，弹栈顺序
 //    delete student2;//加了delete的话，先进行释放，再进行栈内存释放
 
-    LandOwners *ptr_landOwners = new LandOwners;
-    ptr_landOwners->showInfo();
-
-    LandOwners *ptr_landOwners1 = new LandOwners("jack");
-    ptr_landOwners1->showInfo();
-
-    LandOwners *ptr_landOwners2 = new LandOwners(10, 20);
-    ptr_landOwners2->showInfo();
+//    LandOwners *ptr_landOwners = new LandOwners;
+//    ptr_landOwners->showInfo();
+//
+//    LandOwners *ptr_landOwners1 = new LandOwners("jack");
+//    ptr_landOwners1->showInfo();
+//
+//    LandOwners *ptr_landOwners2 = new LandOwners(10, 20);
+//    ptr_landOwners2->showInfo();
 
     LandOwners *ptr_landOwners3 = new LandOwners("jack", "man", 300, 21);
     ptr_landOwners3->showInfo();
+    ptr_landOwners3->touchCard(25);
 
 //    delete ptr_landOwners;
 //    delete ptr_landOwners1;

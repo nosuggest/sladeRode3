@@ -19,6 +19,14 @@ private:
     vector<int> packCards;//默认的牌库1-54
     vector<int> suplusCards;//摸牌后剩余的牌
     vector<int> currentCards;//手牌
+    bool isContains(int); //剩余牌中，是否包含cardNum这张牌
+    void deleteCard(vector<int> &, int);//删除集合中的数字
+
+    string getColor(int);//获得牌的花色
+    string getValue(int);//获得牌面
+
+
+
 public:
     virtual ~LandOwners();
 
@@ -53,6 +61,12 @@ public:
     void initCards();//初始化packCards、suplusCards、currentCards
 
     void showCards(const vector<int> &);
+
+    void showCards1(const vector<int> &);
+
+    void showCards2(const vector<int> &);
+
+    void showCards3(const vector<int> &);
 
     void touchCard(int);//摸牌
 };

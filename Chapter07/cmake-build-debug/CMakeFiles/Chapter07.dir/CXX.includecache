@@ -48,6 +48,12 @@ Student.h
 
 /Users/slade/Documents/GitHub/sladeRode3/Chapter07/Student.h
 
+/Users/slade/Documents/GitHub/sladeRode3/Chapter07/Teacher.cpp
+Teacher.h
+/Users/slade/Documents/GitHub/sladeRode3/Chapter07/Teacher.h
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter07/Teacher.h
+
 /Users/slade/Documents/GitHub/sladeRode3/Chapter07/main.cpp
 iostream
 -
@@ -61,4 +67,6 @@ Student.cpp
 /Users/slade/Documents/GitHub/sladeRode3/Chapter07/Student.cpp
 LandOwners.cpp
 /Users/slade/Documents/GitHub/sladeRode3/Chapter07/LandOwners.cpp
+Teacher.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter07/Teacher.cpp
 

@@ -10,5 +10,7 @@ CMakeFiles/Chapter07.dir/main.cpp.o: ../LandOwners.cpp
 CMakeFiles/Chapter07.dir/main.cpp.o: ../LandOwners.h
 CMakeFiles/Chapter07.dir/main.cpp.o: ../Student.cpp
 CMakeFiles/Chapter07.dir/main.cpp.o: ../Student.h
+CMakeFiles/Chapter07.dir/main.cpp.o: ../Teacher.cpp
+CMakeFiles/Chapter07.dir/main.cpp.o: ../Teacher.h
 CMakeFiles/Chapter07.dir/main.cpp.o: ../main.cpp
 

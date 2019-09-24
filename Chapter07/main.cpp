@@ -4,6 +4,7 @@
 #include "LandOwner.cpp"
 #include "Student.cpp"
 #include "LandOwners.cpp"
+#include "Teacher.cpp"
 
 using namespace std;
 
@@ -80,13 +81,18 @@ int main() {
 //    LandOwners *ptr_landOwners2 = new LandOwners(10, 20);
 //    ptr_landOwners2->showInfo();
 
-    LandOwners *ptr_landOwners3 = new LandOwners("jack", "man", 300, 21);
-    ptr_landOwners3->showInfo();
-    ptr_landOwners3->touchCard(25);
+//    LandOwners *ptr_landOwners3 = new LandOwners("jack", "man", 300, 21);
+//    ptr_landOwners3->showInfo();
+//    ptr_landOwners3->touchCard(25);
 
 //    delete ptr_landOwners;
 //    delete ptr_landOwners1;
 //    delete ptr_landOwners2;
 //    delete ptr_landOwners3;
 
+    Teacher *teacher = new Teacher("马云",40);
+    teacher->addScore(59);
+    teacher->addScore(97);
+    teacher->addScore(88);
+    teacher->showInfo();
 }

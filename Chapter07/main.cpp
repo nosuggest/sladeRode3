@@ -90,9 +90,33 @@ int main() {
 //    delete ptr_landOwners2;
 //    delete ptr_landOwners3;
 
-    Teacher *teacher = new Teacher("马云",40);
+    Teacher *teacher = new Teacher("马云", 40);
     teacher->addScore(59);
     teacher->addScore(97);
     teacher->addScore(88);
     teacher->showInfo();
+
+    Teacher *teacher1 = new Teacher("张鹏", 30);
+    teacher1->addScore(93);
+    teacher1->addScore(67);
+    teacher1->addScore(98);
+    teacher1->showInfo();
+
+    cout << teacher1->getTotal() << endl;
+    //*teacher为对应的引用
+    /*
+     *  返回Teacher teacher2 = teacher1->superSchooler(*teacher);
+     *  返回对象会涉及到生成返回对象的副本，这事调用函数的程序可以使用的副本，因此，返回对象的时间成本包括了调用复制构造函数来生成副本所需的时间和调用析构函数删除副本所需的时间。
+     *
+     *  返回Teacher &teacher2 = teacher1->superSchooler(*teacher);
+     *  返回引用可以节省时间和内存。直接返回对象与按值传递对象类似，他们都生成临时副本。同样，返回引用与按引用传递对象类似，调用和被调用的函数对同一个对象进行操作。
+     * */
+
+    /*
+     *  1、通用的规则是，如果函数返回在函数中创建的临时对象，则不要使用引用，如果先创建一个对象，然后返回改对象的副本，则可以使用返回对象
+     *  2、如果函数返回的是通过引用或指针传递给它的对象，则应当按引用返回对象。当按引用返回调用函数的对象或作为参数传递给函数的对象。
+     * */
+
+    Teacher &teacher2 = teacher1->superSchooler(*teacher);
+    teacher2.showInfo();
 }

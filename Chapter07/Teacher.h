@@ -43,6 +43,11 @@ public:
 
     Teacher(const string &name, int age);
 
+    float getTotal();
+
+//    返回学霸对象
+    Teacher &superSchooler(Teacher &);
+
 };
 
 

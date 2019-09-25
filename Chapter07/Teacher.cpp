@@ -65,6 +65,7 @@ Teacher::Teacher(const string &name, int age, float *scores, int scoreCount) : n
 }
 
 Teacher::~Teacher() {
+    cout << "release" << endl;
     delete this->scores;
 }
 
@@ -72,4 +73,19 @@ Teacher::Teacher(const string &name, int age) : name(name), age(age) {
     initScores();
 }
 
+float Teacher::getTotal() {
+    float tmp = 0;
+    for (int i = 0; i < scoreCount - 1; ++i) {
+        tmp += scores[i];
+    }
+    return tmp;
+}
 
+// 返回一个score更高的teacher对象
+Teacher &Teacher::superSchooler(Teacher &teacher) {
+    if (teacher.getTotal() > this->getTotal()) {
+        return teacher;//返回对象引用
+    } else {
+        return *this;//返回对象引用
+    }
+}

@@ -16,6 +16,8 @@ public:
 
     // 重载+运算符
     Integer operator+(Integer other);
+    // 友元函数重载
+    friend const Integer operator+(int intValue, const Integer &other);
 
     int intValue() {
         return m_value;

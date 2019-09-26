@@ -17,3 +17,7 @@ Integer Integer::operator+(Integer other) {
     Integer result(this->m_value + other.m_value);
     return result;
 }
+
+const Integer operator+(int intValue, const Integer &other) {
+    return Integer(intValue + other.m_value);
+}

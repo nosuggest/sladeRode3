@@ -15,12 +15,16 @@ int main() {
 //    cout << "加之后" << integer2.intValue() << endl;
 //    test1();
 
-    string string1 = "abc";
-    string string2 = "a";
-    cout << getMax(string1, string2) << endl;
+//    string string1 = "abc";
+//    string string2 = "a";
+//    cout << getMax(string1, string2) << endl;
+//
+//    test *t = new test();
+//    t->change();
 
-    test *t = new test();
-    t->change();
+    Integer int5;
+    int5 = 1024 + Integer(5);
+    cout << int5.intValue() << endl;
 
 }
 

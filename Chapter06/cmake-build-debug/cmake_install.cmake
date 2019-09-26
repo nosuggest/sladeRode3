@@ -1,8 +1,8 @@
-# Install script for directory: D:/mywork/GitHub/sladeRode3/Chapter06
+# Install script for directory: /Users/slade/Documents/GitHub/sladeRode3/Chapter06
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Chapter06")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/mywork/GitHub/sladeRode3/Chapter06/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/slade/Documents/GitHub/sladeRode3/Chapter06/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

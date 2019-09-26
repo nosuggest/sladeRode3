@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter06.dir/main.cpp.obj"
+  "CMakeFiles/Chapter06.dir/main.cpp.o"
   "Chapter06.pdb"
-  "Chapter06.exe"
-  "Chapter06.exe.manifest"
-  "libChapter06.dll.a"
+  "Chapter06"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/Integer.cpp
+Integer.h
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/Integer.h
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/Integer.h
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/demoConst.cpp
+demoConst.h
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/demoConst.h
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/iostream
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/demoConst.h
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/iostream
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/main.cpp
+iostream
+-
+iterator
+-
+Integer.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/Integer.cpp
+demoConst.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter08/demoConst.cpp
+

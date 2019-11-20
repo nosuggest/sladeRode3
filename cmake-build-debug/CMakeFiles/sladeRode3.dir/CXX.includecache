@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case0.cpp
+iostream
+-
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case1.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/iostream
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case2.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/iostream
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case3.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/iostream
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case4.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/iostream
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/main.cpp
+iostream
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/iostream
+Case0.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case0.cpp
+Case1.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case1.cpp
+Case2.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case2.cpp
+Case3.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case3.cpp
+Case4.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/Case4.cpp
+总结.cpp
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/总结.cpp
+
+/Users/slade/Documents/GitHub/sladeRode3/Chapter03/总结.cpp
+

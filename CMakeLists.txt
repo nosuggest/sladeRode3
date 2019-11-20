@@ -1,0 +1,68 @@
+cmake_minimum_required(VERSION 3.14)
+project(sladeRode3)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories(Chapter01)
+include_directories(Chapter02)
+include_directories(Chapter03)
+include_directories(Chapter04)
+include_directories(Chapter05)
+include_directories(Chapter06)
+include_directories(Chapter07)
+include_directories(Chapter08)
+
+add_executable(sladeRode3
+        Chapter01/Case00.cpp
+        Chapter01/Case01.cpp
+        Chapter01/Case02.cpp
+        Chapter01/main.cpp
+        Chapter02/binarySeach.cpp
+        Chapter02/bubbleSort.cpp
+        Chapter02/Case00.cpp
+        Chapter02/Case01.cpp
+        Chapter02/Case02.cpp
+        Chapter02/main.cpp
+        Chapter03/Case0.cpp
+        Chapter03/Case1.cpp
+        Chapter03/Case2.cpp
+        Chapter03/Case3.cpp
+        Chapter03/Case4.cpp
+        Chapter03/main.cpp
+        Chapter03/总结.cpp
+        Chapter04/main.cpp
+        Chapter05/case00.cpp
+        Chapter05/case01.cpp
+        Chapter05/case02.cpp
+        Chapter05/case03.cpp
+        Chapter05/case04.cpp
+        Chapter05/case05.cpp
+        Chapter05/case06.cpp
+        Chapter05/case07.cpp
+        Chapter05/main.cpp
+        Chapter06/case00.cpp
+        Chapter06/case01.cpp
+        Chapter06/case02.cpp
+        Chapter06/case03.cpp
+        Chapter06/case03.h
+        Chapter06/chatroom.cpp
+        Chapter06/main.cpp
+        Chapter06/summary.cpp
+        Chapter07/Case01.cpp
+        Chapter07/Case02.cpp
+        Chapter07/Case02.h
+        Chapter07/LandOwner.cpp
+        Chapter07/LandOwner.h
+        Chapter07/LandOwners.cpp
+        Chapter07/LandOwners.h
+        Chapter07/main.cpp
+        Chapter07/Student.cpp
+        Chapter07/Student.h
+        Chapter07/Teacher.cpp
+        Chapter07/Teacher.h
+        Chapter08/demoConst.cpp
+        Chapter08/demoConst.h
+        Chapter08/Integer.cpp
+        Chapter08/Integer.h
+        Chapter08/main.cpp)

@@ -5,6 +5,9 @@
 
 using namespace std;
 
+int add(int a, int b);
+
+void swap(int &a, int &b);
 
 int main() {
 //    Integer integer(20);
@@ -22,10 +25,24 @@ int main() {
 //    test *t = new test();
 //    t->change();
 
-    Integer int5;
-    int5 = 1024 + Integer(5);
-    cout << int5.intValue() << endl;
+//    Integer int5;
+//    int5 = 1024 + Integer(5);
+//    cout << int5.intValue() << endl;
+    cout << add(1, 2) << endl;
 
+    int a = 10;
+    int b = 20;
+    cout << a << "\t" << b << endl;
+    swap(a, b);
+    cout << a << "\t" << b << endl;
 }
 
+int add(int a, int b) {
+    return a + b;
+}
 
+void swap(int &a, int &b) {
+    int tmp = a;
+    a = b;
+    b = tmp;
+}
